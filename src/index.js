@@ -182,7 +182,7 @@ module.exports = function solveSudoku(matrix) {
         }
       }
       
-      if(minLenIndexI!=-1 && totalRandomAttempt<9){
+      if(minLenIndexI!=-1 /*&& totalRandomAttempt<9*/){
         //console.log(matrixRes);
         //console.log('random index '+minLenIndexI+"  "+minLenIndexJ+" "+evalRes[minLenIndexI][minLenIndexJ][0]);
         for(var i=0;i<evalRes[minLenIndexI][minLenIndexJ].length;i++){
